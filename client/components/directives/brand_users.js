@@ -51,8 +51,12 @@ app.directive('listBrandUsers', ['BrandUser', '$location', '$routeParams', 'menu
       });
     };
 
+    var edit = function() {
+      alert('popup')
+    };
+
     var removeUser = function() {
-      alert(123)
+      alert('fin')
     };
 
     var init = function() {
